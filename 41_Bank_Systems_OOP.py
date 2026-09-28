@@ -87,13 +87,13 @@ class Bank:
         if sender and reciever:
             return sender.transfer(reciever, amount)
         return False
-            
+
 
 
 bank = Bank("Ghana National Bank")
 account1 = BankAccount(111, "Joshua", 3000)
 account2 = BankAccount(100, "Benard", 100)
-savings1 = SavingsAccount(233, "Salomay", 4000, 40)
+savings1 = SavingsAccount(233, "Salomay", 4000, 10)
 
 
 bank.add_account(account1)
