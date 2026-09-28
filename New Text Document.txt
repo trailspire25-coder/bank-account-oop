@@ -1,0 +1,13 @@
+student_data.sort(key=lambda x: x[1], reverse=True)
+
+sort() == let you arrange items from lowest to highest
+key=  == tells .sort(): What part of each item should I use to decide the order
+lambda x: == take each item and temporarily call it x. eg. x = ("Joshua", 90).
+x[1]  ==  gives you the second item of x. which is 90 from x = ("Joshua", 90).
+reverse=True  === Highest to lowest.
+
+key=lambda x: x[1]  ==  for each student record, use the score at index 1 as the sorting key.
+
+
+line = f"{employee['name']}, {employee['department']}, {employee['salary']}\n"
+    print(employees)

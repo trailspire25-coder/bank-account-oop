@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Laptop",
+        "price": 4500,
+        "stock": 2
+    },
+    {
+        "name": "Mouse",
+        "price": 150,
+        "stock": 10
+    },
+    {
+        "name": "Keyboard",
+        "price": 250,
+        "stock": 5
+    }
+]
