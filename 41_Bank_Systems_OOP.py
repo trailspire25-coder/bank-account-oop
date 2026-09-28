@@ -26,6 +26,7 @@ class BankAccount:
             raise ValueError("Withdrawal must not be more than deposit.")
         
         self.balance -= withdrawal
+        return True
 
     def display_balance(self):
         print(f"{self.owner}'s current balance: {self.balance}")
@@ -151,6 +152,8 @@ account1.withdrawal(2000)
 account1.display_balance()
 
 try:
-    account1.withdrawal(10000)
+    results = account1.withdrawal(100)
+    if results:
+        print("Withdrawal Successful.")
 except ValueError as e:
     print(e)
