@@ -88,7 +88,7 @@ class Bank:
             return sender.transfer(reciever, amount)
         return False
 
-
+# new functions
 
 bank = Bank("Ghana National Bank")
 account1 = BankAccount(111, "Joshua", 3000)
